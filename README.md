@@ -1,2 +1,79 @@
-# python-turtle-leaf
+# Turtle Leaf Pattern
+
+This is a simple Python program that uses the **Turtle Graphics** library to draw a **leaf-like circular pattern**. Each leaf is created using arcs, and the turtle rotates after each one to form a complete shape.
+
+---
+
+## Requirements
+
+* Python 3.x
+* `turtle` (included with Python)
+
+---
+
+## How It Works
+
+1. The program initializes the Turtle environment:
+
+   * Full-screen window
+   * Black background
+   * White drawing color
+   * Moderate pen thickness for smooth lines
+
+2. It defines a single function:
+
+   * `leaf()`: Draws a leaf shape by combining two circular arcs connected by a turn.
+
+3. The main loop:
+
+   * Calls `leaf()` multiple times (9 by default)
+   * Rotates slightly between each iteration to create a radial pattern
+
+---
+
+## Running the Program
+
+Run the script in a Python environment that supports Turtle graphics (such as the standard **Python IDLE**):
+
+```bash
+python main.py
+```
+
+Click anywhere on the window to close it when the drawing is finished.
+
+---
+
+## Customization
+
+* **Change the number of leaves**:
+
+  ```python
+  for i in range(12):
+      leaf()
+  ```
+
+* **Adjust the angle between leaves** inside the `leaf()` function:
+
+  ```python
+  t.left(60)
+  ```
+
+* **Modify the color or background**:
+
+  ```python
+  t.color("green")
+  screen.bgcolor("lightblue")
+  ```
+
+* **Change leaf curvature** by adjusting the circle radius or arc extent:
+
+  ```python
+  t.circle(80, 120)
+  ```
+
+---
+
+## Example Output
+
+![Pattern 1](screenshots/leaf_pattern.png)
 
