@@ -7,7 +7,7 @@ screen.bgcolor("black") # Background color
 screen.title("Turtle: Leaf Pattern")
 
 t = turtle.Turtle()
-t.speed(10) 
+t.speed(10) # Drawing speed, the fastest is 0
 t.pensize(4)
 t.color("white") # Leaf color
 
@@ -20,5 +20,3 @@ def leaf():
 # The magic
 for i in range(9): # This can be n leaves
     leaf()
-    
-turtle.exitonclick()
