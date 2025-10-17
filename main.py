@@ -20,3 +20,5 @@ def leaf():
 # The magic
 for i in range(9): # This can be n leaves
     leaf()
+    
+turtle.exitonclick()
