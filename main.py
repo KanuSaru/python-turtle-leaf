@@ -11,7 +11,7 @@ t.speed(10) # Drawing speed, the fastest is 0
 t.pensize(4)
 t.color("white") # Leaf color
 
-# Functions
+# Functions, the set values correspond to the pattern 1 in the example outputs
 def leaf():
     t.circle(100, 100)
     t.left(80) # Angle between leaves
